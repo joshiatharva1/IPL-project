@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPL_Analysis</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            margin: 0;
+        }
+
+        h1 {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #343a40;
+            color: #ffffff;
+            margin: 0;
+        }
+
+        .quadrant-container {
+            flex: 1;
+            display: flex;
+        }
+
+        .quadrant {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+        .quadrant:hover {
+            background-color: #e0e0e0;
+            transform: scale(1.05);
+        }
+
+        .quadrant a {
+            text-decoration: none;
+            color: inherit;
+        }
+    </style>
+</head>
+<body>
+    <h1>IPL Data Analysis by Tejas, Atharva and Akash</h1>
+
+    <div class="quadrant-container">
+        <div class="quadrant" style="background-color: #ffc107;">
+            <a href="/task/Task1">
+                <h2>Task 1</h2>
+                <p>Predicting the probability of winning or losing a match based on the number of wickets lost in the powerplay</p>
+            </a>
+        </div>
+
+        <div class="quadrant" style="background-color: #28a745;">
+            <a href="/task/Task2P1">
+                <h2>Task 2 : Analysis 1</h2>
+                <p>Overall performance of various teams by trends in Bowling Economy</p>
+            </a>
+        </div>
+
+        <div class="quadrant" style="background-color: #007bff;">
+            <a href="/task/Task2P2">
+                <h2>Task 2 : Analysis 2</h2>
+                <p>Overall performance of various teams by trends in Net Run Rate</p>
+            </a>
+        </div>
+    </div>
+
+    <div class="quadrant-container">
+        <div class="quadrant" style="background-color: #12D9F3;">
+            <a href="/task/Task3">
+                <h2>Task 3</h2>
+                <p>Determining if bowling is preferable over batting by analysing pitch conditions</p>
+            </a>
+        </div>
+
+        <div class="quadrant" style="background-color: #F6CE8F;">
+            <a href="/task/Task4">
+                <h2>Task 4</h2>
+                <p>Is it advantageous for the toss winner to be the match winner ?</p>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
